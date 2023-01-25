@@ -1,1 +1,81 @@
-a
+.mainSection {
+    max-width: 75rem;
+    margin: auto;
+    height: 100vh;
+}
+
+h1, h4, h3, p, span {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+h1 {
+    padding: 3rem 0 1.8rem 0;
+    font-family: 'Poppins'
+    
+}
+
+h4 {
+    color: #181a30;
+}
+
+
+.cardCourse {
+    font-family: 'Poppins';
+    background: #eee;
+    border-radius: 8px;
+    padding: 18px 18px ;
+   
+}
+
+.cardCourse img {
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+a {
+    text-decoration: none;
+    background: #7187da;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 5px 0;
+    color: #13247f;
+    
+}
+
+.sectionGrid {
+      display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 350px));
+}
+
+.cardCourse span {
+    background: #bec2e3;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+     color: #4956ca;
+    margin-right: 8px
+}
+
+#rate {
+    color: #a79c06;
+    background: #e2e0c0;
+}
+
+
+.cardInformation {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cardInformation p {
+    color: #787878;
+    font-size: 14px;
+}
